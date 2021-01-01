@@ -2,7 +2,7 @@
     "routes": [
         {
             "route": "/",
-            "serve": "http://www.mbmproductions.com/services.php?virtual_meetings",
+            "serve": "/redirect.html",
             "statusCode": 302
         },
         {
