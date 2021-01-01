@@ -3,7 +3,7 @@
         {
             "route": "/",
             "serve": "/redirect.html",
-            "statusCode": 302
+            "statusCode": 200
         },
         {
             "route": "/admin",
