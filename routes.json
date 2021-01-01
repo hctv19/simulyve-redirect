@@ -1,0 +1,25 @@
+{
+    "routes": [
+        {
+            "route": "/",
+            "serve": "http://www.mbmproductions.com/services.php?virtual_meetings",
+            "statusCode": 301
+        },
+        {
+            "route": "/admin",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/*",
+            "serve": "/index.html",
+            "statusCode": 200
+        }
+    ],
+    "defaultHeaders": {
+      "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
+    },
+    "mimeTypes": {
+        "custom": "text/html"
+    }
+  }
