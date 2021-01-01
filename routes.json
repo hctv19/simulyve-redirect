@@ -3,7 +3,7 @@
         {
             "route": "/",
             "serve": "http://www.mbmproductions.com/services.php?virtual_meetings",
-            "statusCode": 301
+            "statusCode": 302
         },
         {
             "route": "/admin",
